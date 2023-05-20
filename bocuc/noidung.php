@@ -1,0 +1,50 @@
+
+<main>
+<div id="chinh">
+	<?php
+		if(isset($_GET["xem"])){
+			$bien=$_GET["xem"];
+		}else{
+			$bien="";
+		}
+		if($bien=="sanphammoi"){
+			include("./sanpham/sanphammoi.php");
+		}
+		elseif($bien=="khuyenmai"){
+			include("./sanpham/khuyenmai.php");
+		}
+		elseif($bien=="loaisanpham"){
+			include("./sanpham/loaisanpham.php");
+		}
+		elseif($bien=="banchay"){
+			include("./sanpham/banchay.php");
+		}
+		elseif($bien=="taikhoan"){
+			include("./bocuc/formtaikhoan.php");
+		}
+		elseif($bien=="dangnhap"){
+			include("dangnhap.php");
+		}
+		elseif($bien=="dangky"){
+			include("dangky.php");
+		}
+		elseif($bien=="chitietloaisanpham"){
+			include("./bocuc/chitietloaisanpham.php");
+		}
+		elseif($bien=="chitietsanpham"){
+			include("./sanpham/chitietsanpham.php");
+		}
+		elseif($bien=="giohang"){
+			include("./sanpham/giohang.php");
+		}
+		elseif($bien=="thongtinthanhtoan"){
+			include("./sanpham/thongtinthanhtoan.php");
+		}
+		elseif(isset($_POST['bt_timkiem']) || $bien=="timkiem"){
+			include("./bocuc/timkiem.php");
+		}else{
+			include("./sanpham/tatcasanpham.php");
+		}
+	?>
+</div>
+</main>

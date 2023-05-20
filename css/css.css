@@ -1,0 +1,449 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #cfcfef;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+#container {
+  width: 100%;
+  margin: 0px auto;
+
+}
+
+#logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+#logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo-text {
+  font-size: 30px;
+}
+
+.logo-subtext {
+  font-size: 16px;
+}
+
+#dangnhap a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 800;
+}
+
+#dangnhap input[type="submit"] {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 5px;
+  font-weight: 700;
+}
+
+#dangnhap input[type="submit"]:hover {
+  background-color: #555;
+}
+
+
+
+
+/* CSS cho phần navigation */
+nav {
+  background-color: #f2f2f2;
+  padding: 10px 0;
+}
+
+#menu_web {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+#menu_web ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+#menu_web ul li {
+  margin-right: 10px;
+}
+
+#menu_web ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#menu_web ul li a:hover {
+  background-color: #ddd;
+}
+
+#fromtim {
+  display: flex;
+  align-items: center;
+}
+
+#fromtim input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+#fromtim input[type="submit"] {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+#fromtim input[type="submit"]:hover {
+  background-color: #555;
+}
+
+aside {
+  width: 200px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* side bar */
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.mucsitebar {
+  margin-bottom: 20px;
+}
+
+.titlebar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.titlebar p {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 5px 0;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul li a:hover {
+  color: #555;
+}
+
+
+
+
+
+
+
+
+/* #noidung{
+padding:10px 0px;
+} */
+/* #chinh{
+float:right;
+width:800px;
+position:relative;
+background:#aeaeff;
+margin:10px 0px 0px 0px;
+}
+#chinh1{
+height:700px;
+} */
+#chinh {
+  float: right;
+  width: 1000px;
+  position: relative;
+  background: #aeaeff;
+  margin: 10px 0 0 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+#chinh::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  background: #aeaeff;
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+
+#sitebar {
+  float: left;
+  margin: 10 0;
+
+}
+
+/* #footer{
+clear: both;
+padding:15px 0px;
+overflow:auto;
+}
+#copyright{
+background:#93e761;
+overflow:auto;
+}
+#copyright p{
+float:right;
+}
+#cuoitrang{
+background:#5e9817;
+padding:10px;
+overflow:auto;
+}
+.lienhe{
+float:left;
+width:300;
+}
+.lienhe h3{
+color:white;
+width:200px;
+border-bottom:solid 1px;
+margin:0 0 10 0;
+}
+.mucsitebar{
+margin:0 0 0 0;
+}
+.mucsitebar ul li{
+height:25;
+padding:5;
+color:#746463;
+width:140px;
+}
+
+.mucsitebar ul li:hover{
+color:white;
+width:140px;
+background:#E17D0D;
+border-radius:0px 25px 25px 0px ;
+}
+.mucsitebar{
+    width:140px;
+}
+.titlebar{
+background:#93e761;
+font-size:17;
+width:150;
+text-align:center;
+border-radius:0px 25px 25px 0px ;
+} */
+
+
+
+#dangnhap {
+  margin: 10px 0 0 0;
+}
+
+#dangnhap1 {
+  background: #93e761;
+  font-size: 17;
+  width: 150;
+  text-align: center;
+  border-radius: 0px 25px 25px 0px;
+}
+
+#formdangnhap {
+  width: 800px;
+  height: 250px;
+  float: right;
+}
+
+#formdangnhap1 {
+  height: 230px;
+  width: 350px;
+  margin: 20 auto;
+}
+
+#formdangnhap table {
+  margin: 10 auto;
+  position: relative;
+  left: 0;
+  top: 30;
+}
+
+#formdangnhap td {
+  text-align: center;
+}
+
+#formdangnhap1 h2 {
+  color: blue;
+  text-align: center;
+  border-bottom: 2px solid white;
+  margin: 5px;
+}
+
+.tungsanpham {
+  overflow: hidden;
+  background: #ffffff;
+  width: 235px;
+  height: 250px;
+  margin: 10px;
+  float: left;
+  margin-left: 17px;
+  position: relative;
+  /* left  */
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.24), 0 5px 30px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 6px;
+
+}
+
+.tungsanpham:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.gioithieuso {
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  height: 9%;
+  transition: .5s ease;
+  border-top: 1.5px solid #c5b8b8;
+  padding: 0 4px;
+}
+
+.gioithieuso h3 {
+  text-align: center;
+}
+
+.gioithieuso a {
+  padding: 0 10px;
+}
+
+.tungsanpham:hover .gioithieuso {
+  bottom: 0;
+  height: 40%;
+}
+
+.image {
+  display: block;
+  width: 170px;
+  height: 200px;
+  position: absolute;
+  left: 15%;
+}
+
+#formtaikhoan {
+
+  width: 300px;
+  margin: 10px auto;
+  ;
+  text-align: left;
+}
+
+#content {
+  margin: 10 0 0 0;
+}
+
+.title {
+  text-align: center;
+  border-bottom: 2px solid white;
+  width: 200px;
+  margin: 10px auto;
+}
+
+.chitietloaisanpham ul li {
+  float: left;
+  width: 100px;
+  height: 200px;
+  ;
+  background: #9191e6;
+  color: white;
+  margin: 10px;
+
+}
+
+.chitietloaisanpham {
+  margin: 10px auto;
+}
+
+#trang ul li {
+  color: black;
+  float: left;
+  padding: 0.2em 0.6em;
+  margin: 0 0 0 0.1em;
+
+}
+
+#trang {
+  height: 30px;
+}
+
+#trang ul li:hover {
+  background: #222235;
+  color: white;
+}
+
+#trang p {
+  float: left;
+  margin: 2 10 0 10;
+}
+
+.gioithieuso ul li {
+  display: inline;
+  padding: 20px;
+}
+
+#thongtinthanhtoan {
+  padding: 20px 13%;
+}

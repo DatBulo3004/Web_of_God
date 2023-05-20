@@ -1,0 +1,134 @@
+footer {
+    position: relative;
+    width: 1400px;
+    height: auto;
+    padding: 50px 100px;
+    background: #c1d3e0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+footer .footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/*Thiết lập cho phần Giới thiệu*/
+footer .noidung {
+    margin-right: 30px;
+    width: 40%;
+}
+
+footer .noidung h2 {
+    position: relatived;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+footer .noidung h2::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+}
+
+footer .noidung p {
+    color: #000000;
+}
+
+
+/*Thiết lập phần Đường dẫn*/
+footer .duongdan h2 {
+    position: relative;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+footer .duongdan h2::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+
+}
+
+footer .duongdan {
+    position: relative;
+    width: 15%;
+}
+
+footer .duongdan ul li {
+    list-style: none;
+}
+
+footer .duongdan ul li a {
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+footer .duongdan ul li a:hover {
+    color: #fff;
+}
+
+/*Thiết lập phần Liên hệ*/
+footer .lienhe h2 {
+    position: relative;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+footer .lienhe h2::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+}
+
+footer .lienhe {
+    width: 25%;
+    margin-right: 0;
+}
+
+footer .container .lienhe .info {
+    position: relative;
+}
+
+footer .lienhe .info li {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+footer .lienhe .info li span {
+    color: #000000;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+footer .lienhe .info li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/*Thiết lập phần Mạng xã hội*/
+.mangxahoi>a>i.fa {
+    margin: 10px;
+}
+
+hr {
+    width: 50%;
+}

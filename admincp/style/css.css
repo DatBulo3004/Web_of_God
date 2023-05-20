@@ -1,0 +1,69 @@
+*{
+	padding:0;
+	margin:0;
+}
+ul li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+body{
+	background:#ffffff;
+}
+#container{
+	width:1000px;
+	margin:auto;
+	overflow:auto;
+}
+#logo{
+	width:auto;
+	background:aliceblue;
+	height:150px;
+	text-align:center;
+}
+#logo h3{
+padding:50px;;
+}
+#menu{
+	float:left;
+	background:#93e761;
+	width:200px;
+	height:auto;
+}
+#menu ul li{
+color:black;
+padding:30px;
+border-bottom:1px solid;
+}
+#menu ul li:hover{
+background:#E17D0D;
+color:white;	
+}
+#thantrang{
+	position:relative;
+}
+#noidung{
+	overflow:auto;
+	float:right;
+	width:798px;
+}
+table#loaisanpham{
+	width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+input[type=text]{
+	background:#d2d6da;
+}
+table#themlsp{
+	margin:auto;
+}
+#input{
+	margin:10px auto;
+}
+#trang ul li{
+	float:left;
+}
